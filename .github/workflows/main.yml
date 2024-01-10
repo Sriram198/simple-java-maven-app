@@ -49,4 +49,4 @@ jobs:
       run: |
           helm uninstall apache
           helm upgrade --install apache ${{ github.workspace }}/kubernetes 
-          helm list 
+          helm list
